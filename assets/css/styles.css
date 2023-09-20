@@ -53,6 +53,7 @@ body {
 
 h1, h2, p {
   margin: 0;
+  color: lightgrey;
 }
 
 ul {
@@ -75,7 +76,7 @@ img {
 .section-title {
   position: relative;
   font-size: var(--h2-font-size);
-  color: var(--first-color);
+  color: lightgrey;
   margin-top: var(--mb-2);
   margin-bottom: var(--mb-4);
   text-align: center;
@@ -90,7 +91,7 @@ img {
   right: 0;
   margin: auto;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: #008F11;
 }
 
 .section {
@@ -112,7 +113,7 @@ img {
   top: 0;
   left: 0;
   z-index: var(--z-fixed);
-  background-color: #fff;
+  background-color: rgb(36, 37, 37);
   box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
 }
 
@@ -140,6 +141,7 @@ img {
 
 .nav__item {
   margin-bottom: var(--mb-4);
+  color: white;
 }
 
 .nav__link {
@@ -158,11 +160,12 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: lightgrey;
 }
 
 .nav__logo {
-  color: var(--second-color);
+  color: lightgrey;
+  max-width: 88px;
 }
 
 .nav__toggle {
@@ -179,7 +182,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: var(--first-color);
+  background-color: lightgrey;
 }
 
 /*=== Show menu ===*/
@@ -198,13 +201,23 @@ img {
   align-self: center;
 }
 
+#text {
+    font-size: var(--big-font-size);
+    margin-bottom: var(--mb-5);
+    color: #00FF41;
+    opacity: 0.1;
+    
+}
+
+
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
+  color: lightgrey;
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color: #008F11;
 }
 
 .home__social {
@@ -216,11 +229,11 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   font-size: 1.5rem;
-  color: var(--second-color);
+  color: #008F11;
 }
 
 .home__social-icon:hover {
-  color: var(--first-color);
+  color: lightgrey;
 }
 
 .home__img {
@@ -231,7 +244,8 @@ img {
 }
 
 .home__blob {
-  fill: var(--first-color);
+  fill: #008F11;
+  margin-left: var(--mb-6);
 }
 
 .home__blob-img {
@@ -241,7 +255,7 @@ img {
 /*BUTTONS*/
 .button {
   display: inline-block;
-  background-color: var(--first-color);
+  background-color: #008F11;
   color: #fff;
   padding: .75rem 2.5rem;
   font-weight: var(--font-semi);
@@ -250,7 +264,7 @@ img {
 }
 
 .button:hover {
-  box-shadow: 0px 10px 36px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 10px 36px rgba(255, 255, 255, 0.5);
 }
 
 /* ===== ABOUT =====*/
@@ -260,7 +274,12 @@ img {
 }
 
 .about__subtitle {
-  margin-bottom: var(--mb-2);
+  margin: 20px 20px;
+}
+
+.about__text {
+  margin: 20px 20px;
+  
 }
 
 .about__img {
@@ -296,27 +315,32 @@ img {
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  color: lightgray;
 }
 
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
-  color: var(--first-color);
+  color:lightgrey; 
+  max-width: 2rem;
+  margin-bottom: 5px;
 }
 
 .skills__names {
   display: flex;
   align-items: center;
+  color: lightgray;
 }
 
 .skills__bar {
   position: absolute;
   left: 0;
   bottom: 0;
-  background-color: var(--first-color);
+  background-color: #008F11;
   height: .25rem;
   border-radius: .5rem;
   z-index: var(--z-back);
+  color: #008F11;
 }
 
 .skills__html {
@@ -325,6 +349,10 @@ img {
 
 .skills__css {
   width: 85%;
+}
+
+.skills__solidity {
+  width: 51%;
 }
 
 .skills__js {
@@ -381,8 +409,8 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: var(--second-color);
-  color: #fff;
+  background-color: rgb(36, 37, 37);
+  color: lightgrey;
   text-align: center;
   font-weight: var(--font-semi);
   padding: 2rem 0;
@@ -399,9 +427,10 @@ img {
 
 .footer__icon {
   font-size: 1.5rem;
-  color: #fff;
+  color: #008F11;
   margin: 0 var(--mb-2);
 }
+
 
 .footer__copy {
   font-size: var(--smaller-font-size);
@@ -462,6 +491,7 @@ img {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
+    background-color: #0D0208;
   }
   .section {
     padding-top: 4rem;
@@ -473,6 +503,7 @@ img {
   .section-title::after {
     width: 80px;
     top: 3rem;
+    color: #008F11;
   }
   .nav {
     height: calc(var(--header-height) + 1.5rem);
@@ -489,7 +520,7 @@ img {
     display: none;
   }
   .nav__link {
-    color: var(--second-color);
+    color: lightgrey;
   }
   .home {
     padding: 8rem 0 2rem;
