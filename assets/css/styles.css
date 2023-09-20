@@ -227,7 +227,13 @@ hr {
     font-family: 'Courier New', Courier, monospace;
 }
 
-
+.fade-container{
+  background: #fe9494;
+  width: 400px;
+  height: 300px;
+  position: relative;
+  transition: background 0.15s ease-in-out;
+}
 
 .home__title {
   font-size: var(--big-font-size);
@@ -302,6 +308,8 @@ hr {
 
 .about__text {
   margin: 20px 88px;
+  font-weight: bold;
+  word-spacing: 8px;
 }
 
 .about__img {
