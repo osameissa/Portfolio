@@ -151,7 +151,7 @@ img {
 
 .nav__link:hover {
   position: relative;
-  opacity: 55%;
+  opacity: 77%;
 }
 
 .nav__link:hover::after {
@@ -161,7 +161,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: lightgrey;
+  background-color: #008F11;
 }
 
 .nav__logo {
@@ -188,7 +188,7 @@ img {
   height: 0.18rem;
   left: 0;
   top: 2rem;
-  background-color: lightgrey;
+  background-color: #008F11;
 }
 
 /*=== Show menu ===*/
@@ -208,13 +208,13 @@ img {
 }
 
 #text {
-    font-size: var(--big-font-size);
+    font-size: 3rem;
     margin-bottom: var(--mb-5);
-    color: #00FF41;
-    opacity: 0.1;
-    
+    color: lightgrey;
+    opacity: 0.3;
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 0.1em;
 }
-
 
 .home__title {
   font-size: var(--big-font-size);
@@ -412,6 +412,8 @@ img {
 
 .contact__input::placeholder {
     color: black;
+    font-family:'Courier New', Courier, monospace;
+    opacity: 40%;
 }
 
 .contact__button {
