@@ -40,14 +40,13 @@
             <section class="home bd-grid" id="home">
                 <div class="home__data">
                     <h1 class="home__title">Hi ,<br>I am <span class="home__title-color">Osame Issa</span><br>Blockchain developer</h1>
-                    <div id="text">Hello World!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!</div>
-
+                    <div id="text">Hello World!</div>
                     <a href="#" class="button">Contact</a>
                 </div>
 
                 <div class="home__social">
-                    <a href="https://se.linkedin.com/in/osame-issa-55996b169" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                    <a href="https://github.com/osameissa" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://se.linkedin.com/in/osame-issa-55996b169" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/osameissa" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 </div>
 
                 <div class="home__img">
@@ -128,7 +127,6 @@
                                 <span class="skills__name">JAVASCRIPT</span>
                             </div>
                             <div class="skills__bar skills__js">
-                                
                             </div>
                             <div>
                                 <span class="skills__percentage">65%</span>
@@ -191,7 +189,7 @@
                     <form action="" class="contact__form">
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" placeholder="Please write an inquiry and I will get back to you as soon as possible." id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <textarea name="question" placeholder="Please write an inquiry and I will get back to you as soon as possible." id="" cols="0" rows="10" class="contact__input"></textarea>
                         <input type="button" value="Send" class="contact__button button">
                     </form>
                 </div>
@@ -202,8 +200,8 @@
         <footer class="footer">
             <p class="footer__title">Osame Issa</p>
             <div class="footer__social">
-                <a href="https://se.linkedin.com/in/osame-issa-55996b169" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="https://github.com/osameissa" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                <a href="https://se.linkedin.com/in/osame-issa-55996b169" target="_blank" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/osameissa" target="_blank" class="home__social-icon"><i class='bx bxl-github' ></i></a>
                 <a href="#" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
             </div>
             <p class="footer__copy">&#169; Student at Medieinstitutet, 2023</p>
@@ -233,7 +231,6 @@
             }
             window.onload = main;
             </script>
-            <div id="text"></div>
             <script type="text/javascript">
             var myWord = ["t","r","a","¢","r"];
             var myColors = ["black","black","pink","blue","yellow"];
@@ -241,5 +238,6 @@
                 document.getElementById("text").innerHTML += "<span style='color:" + myColors[i] + "'>" + myWord[i] + "</span>";
             }
             </script>
+            
     </body>
 </html>
