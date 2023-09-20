@@ -151,6 +151,7 @@ img {
 
 .nav__link:hover {
   position: relative;
+  opacity: 55%;
 }
 
 .nav__link:hover::after {
@@ -167,6 +168,10 @@ img {
   color: lightgrey;
   max-width: 88px;
   cursor: pointer;
+}
+
+.nav__logo:hover {
+    opacity: 77%;
 }
 
 .nav__toggle {
