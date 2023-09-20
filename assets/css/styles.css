@@ -216,6 +216,15 @@ img {
     letter-spacing: 0.1em;
 }
 
+#text2 {
+    font-size: 1rem;
+    opacity: 0.3;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+
 .home__title {
   font-size: var(--big-font-size);
   margin-bottom: var(--mb-5);
@@ -253,7 +262,8 @@ img {
   fill: #096921;
   margin-bottom: 40%;
   margin-left: 20%;
-  opacity: 90%;
+  margin-right: -10%;
+  opacity: 88%;
 }
 
 .home__blob-img {
