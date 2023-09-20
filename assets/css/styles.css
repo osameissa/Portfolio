@@ -279,7 +279,6 @@ img {
 
 .about__text {
   margin: 20px 20px;
-  
 }
 
 .about__img {
@@ -367,6 +366,9 @@ img {
   border-radius: .5rem;
 }
 
+.skills__coding {
+    margin-left: 20%;
+}
 /* ===== WORK =====*/
 .work__container {
   row-gap: 2rem;
@@ -396,6 +398,11 @@ img {
   border: 1.5px solid var(--second-color);
   outline: none;
   margin-bottom: var(--mb-4);
+  background-color: lightgrey;
+}
+
+.contact__input::placeholder {
+    color: black;
 }
 
 .contact__button {
@@ -430,6 +437,7 @@ img {
   color: #008F11;
   margin: 0 var(--mb-2);
 }
+
 
 
 .footer__copy {
