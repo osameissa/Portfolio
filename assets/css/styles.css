@@ -166,6 +166,7 @@ img {
 .nav__logo {
   color: lightgrey;
   max-width: 88px;
+  cursor: pointer;
 }
 
 .nav__toggle {
@@ -244,12 +245,15 @@ img {
 }
 
 .home__blob {
-  fill: #008F11;
-  margin-left: var(--mb-6);
+  fill: #096921;
+  margin-bottom: 40%;
+  margin-left: 20%;
+  opacity: 90%;
 }
 
 .home__blob-img {
-  width: 360px;
+  width: 300px;
+  margin-left: var(--mb-6);
 }
 
 /*BUTTONS*/
@@ -416,7 +420,7 @@ img {
 
 /* ===== FOOTER =====*/
 .footer {
-  background-color: rgb(36, 37, 37);
+  background-color: #161818;
   color: lightgrey;
   text-align: center;
   font-weight: var(--font-semi);
@@ -437,6 +441,7 @@ img {
   color: #008F11;
   margin: 0 var(--mb-2);
 }
+
 
 
 
