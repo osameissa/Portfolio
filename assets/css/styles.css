@@ -48,7 +48,7 @@ body {
   margin: var(--header-height) 0 0 0;
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  color: var(--second-color);
+  background-color: #080808;
 }
 
 h1, h2, p {
@@ -166,7 +166,7 @@ img {
 
 .nav__logo {
   color: lightgrey;
-  max-width: 88px;
+  max-width: 55px;
   cursor: pointer;
 }
 
@@ -297,7 +297,7 @@ img {
 }
 
 .about__text {
-  margin: 20px 20px;
+  margin: 20px 88px;
 }
 
 .about__img {
@@ -332,7 +332,7 @@ img {
   padding: .5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: .5rem;
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  box-shadow: 0px 4px 25px rgba(255, 255, 255, 0.33);
   color: lightgray;
 }
 
@@ -521,7 +521,7 @@ img {
 @media screen and (min-width: 768px) {
   body {
     margin: 0;
-    background-color: #0D0208;
+    background-color: black;
   }
   .section {
     padding-top: 4rem;
